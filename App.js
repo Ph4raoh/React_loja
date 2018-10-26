@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Text, View, TextInput, Input, Button, Image, Header, Title, TouchableOpacity, AppRegistry, StyleSheet, KeyboardAvoidingView, ImageBackground} from 'react-native';
+import { Text, View, TextInput, Input, Button, Image, Header, Title, TouchableOpacity, AppRegistry, StyleSheet, KeyboardAvoidingView, ImageBackground, ScrollView} from 'react-native';
 
 export default class Login extends Component {
     render() {
         return (
-          <View >
+
+        <ScrollView>
 
           <View style={estilo.navbar}>
            <Text style={estilo.titulo}>Loja</Text>
@@ -24,7 +25,7 @@ export default class Login extends Component {
 
 
 
-          </View>
+        </ScrollView>
 
 
         );
